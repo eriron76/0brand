@@ -17,6 +17,7 @@ $return_value = array(
     'prev_page' => 0,
 );
 
+
 // inizializzo le variabili con i valorid di default impostati nell'array della configurazione
 $node_id = $api_settings['node_id']['default_value'];
 $language =  $api_settings['language']['default_value'];

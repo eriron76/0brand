@@ -33,7 +33,7 @@ class NodeTree {
             SELECT  n.idNode,ntn.NodeName as name,n.level
             FROM node_tree AS n, node_tree AS p
             JOIN node_tree_names AS ntn
-            WHERE  n.idNode = ntn.idNodexx
+            WHERE  n.idNode = ntn.idNode
             AND p.idNode = $node_id 
             AND (n.iLeft BETWEEN p.iLeft AND p.iRight) 
             AND language = '$language' 
